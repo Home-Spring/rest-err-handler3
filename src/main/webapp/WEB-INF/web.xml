@@ -5,7 +5,7 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>spring-mvc-testing-example</display-name>
+    <display-name>OAuth-2 REST-Service</display-name>
 
     <servlet>
         <servlet-name>mvc-dispatcher</servlet-name>
@@ -16,7 +16,6 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>mvc-dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
